@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --bgColor: rgb(79, 74, 74);
+    --fontCoor: #eaeaea;
+    --highlight: #575555;
+    --table: #3e3e3e;
+}
+
+body {
+    background-color: var(--bgColor);
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    color: var(--fontCoor);
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: var(--fontCoor); 
+}
+
+input {
+    background-color: var(--table);
+    border: 2px solid var(--highlight);
+    border-radius: 4px;
+    padding: 0.3%;
+    color: var(--fontCoor);
+    fofont-weight: 400;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: var(--table);
+    border: 2px solid var(--highlight);
+    border-radius: 4px;
+    padding: 0.3%;
+    color: var(--fontCoor);
+    fofont-weight: 400;
+    font-size: 1.5em;
+}
+
+table {
+    margin-top: 1%;
+}
+
+tr {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: var(--fontCoor);
+}
+
+th {
+    background-color: var(--highlight);
+}
+
+td {
+    background-color: var(--table);
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+  text-align: left;
+}

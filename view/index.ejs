@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Notenschlüssel | Home</title>
+    <script src="script.js"></script>
+</head>
+<body onload="load();">
+    
+    <h1>Notenschlüssel</h1>
+
+    <p>Maximale Punkte:</p>
+    <input id="pointBox" name="points" type="number" placeholder="Maximale Punkte">
+    <button onclick="calculate();" type="button">Berechnen</button>
+
+    <div class="table">
+
+        <table>
+            <tr>
+                <th>1</th>
+                <td>100% - 95%</td>
+                <td id="mark1">/-/</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>94.5% - 85%</td>
+                <td id="mark2">/-/</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>84.5% - 70%</td>
+                <td id="mark3">/-/</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>69.5% - 50%</td>
+                <td id="mark4">/-/</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td>49.5% - 25%</td>
+                <td id="mark5">/-/</td>
+            </tr>
+            <tr>
+                <th>6</th>
+                <td>24.5% - 0%</td>
+                <td id="mark6">/-/</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <p>*Alle angaben ohne Gewähr. Es kann zu Rundungsfehlern kommen</p>
+
+</body>
+</html>
